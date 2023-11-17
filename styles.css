@@ -432,6 +432,12 @@ img {
     #btnsend2 {
         display: block;
     }
+    #con{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        height: 10rem;
+    }
 }
 
 #info {
