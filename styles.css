@@ -49,13 +49,14 @@
     display: block;
     width: 100%;
     height: auto;
-    margin: auto;
+    margin: auto;  
 }
 
 .snav:hover {
-    color: red;
-    border-bottom: 2px solid #007bff;
-    transition: .5s
+    
+    border-bottom: .08rem solid #007bff;
+    padding: .2rem;
+
 }
 
 .snav {
