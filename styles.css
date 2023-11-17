@@ -366,20 +366,37 @@ footer {
     display: block;
     
 }
-#flink p{
-    padding: 0 0 1rem 0;
-    font-size: 1rem;
-}
+
 .link{
     text-decoration: none;
     display: block;
     color: var(--color3);
     left: 0;
     font-size: .8rem;
-    padding: .18rem 0;
+    padding: 0 0 .35rem 0;
 }
 #redes{
     width: 40%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+#reds{
+    width: 100%;
+    bottom: 0;
+    display: block;
+    position: absolute;
+}
+#redsocial{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+#redsocial img{
+    width: 1.5rem;
+    height: auto;
+    display: block;
+    margin: auto;    
 }
 #fcli{
     width: 30%;
@@ -390,4 +407,9 @@ footer {
     margin: auto;
     text-align: center;
     color: var(--color3);
+}
+.tfc{
+    color: var(--color3);
+    display: block;
+    padding: 0 0 1rem 0;
 }
