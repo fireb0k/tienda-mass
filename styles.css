@@ -46,7 +46,7 @@
 }
 
 #nav li {
-    display: block;
+
     width: 100%;
     height: auto;
     margin: auto;
@@ -65,14 +65,9 @@
     color: var(--color);
     width: 100%;
 }
-@media screen and (max-width: 720px) {
-    #nav_ul{
-        display: none;
-    }
-}
 
-@media screen and (max-width: 360px) {
-
+#line {
+    display: none;
 }
 
 #header {
@@ -80,10 +75,6 @@
     height: auto;
     background-color: var(--color);
     display: block;
-}
-
-h2 {
-    color: var(--color);
 }
 
 #hi {
@@ -103,7 +94,7 @@ h2 {
     display: block;
     width: 60%;
     height: auto;
-    padding: 1rem 0rem;
+    margin: 1rem 0rem;
 }
 
 #txttile {
@@ -164,6 +155,77 @@ h2 {
     border-radius: 5em;
     background-color: white;
 }
+@media screen and (max-width: 720px) {
+    #hi{
+        display: flex;
+        width: 90%;
+        height: auto;   
+    }
+    #ht{
+        width: 48%;
+    }
+    #himg{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    #line {
+        width: 100%;
+        height: auto;
+        display: block;
+        right: 0;
+    }
+
+    .line {
+        width: 1.5rem;
+        height: 3px;
+        background-color: var(--color);
+        margin: auto;
+        margin-top: .4rem;
+    }
+
+    .tablet {
+        display: none;
+        overflow: hidden;
+
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #header {
+        width: 100%;
+        height: auto;
+        background-color: var(--color);
+        display: block;
+    }
+
+    .movil {
+        display: none;
+        overflow: hidden;
+    }
+    #hi{
+        width: 70%;
+        display: block;
+        
+    }
+    #ht{
+        width: 100%;
+        display: block;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2.5rem;
+    }
+    #himg{
+        width: 100%;
+       background-color: rebeccapurple;
+    }
+    
+   
+}
+
 
 #section {
     background-color: rgba(253, 245, 213, 1);
@@ -210,43 +272,51 @@ img {
     display: block;
     margin: auto;
 }
-.ix p{
+
+.ix p {
     color: var(--color);
 }
-#vermas{
+
+#vermas {
     display: none;
 }
+
 @media screen and (max-width: 720px) {
-    #scontainer{
+    #scontainer {
         width: 95%;
         display: grid;
         grid-template-columns: repeat(2, 1fr)
     }
-    #content{
+
+    #content {
         width: 100%;
     }
-    .img{
+
+    .img {
         display: block;
         height: 60vh;
     }
 }
 
 @media screen and (max-width: 360px) {
-    #scontainer{
+    #scontainer {
         width: 95%;
         display: block;
         margin-bottom: 1rem;
-        
+
     }
-    #content{
+
+    #content {
         width: 100%;
-        
+
     }
-    .img{
+
+    .img {
         display: block;
         height: 60vh;
     }
-    #vermas{
+
+    #vermas {
         display: grid;
         width: 100%;
         height: 2.5rem;
@@ -255,9 +325,10 @@ img {
         align-items: center;
         margin-top: .5rem;
         color: var(--color3);
-        
+
     }
 }
+
 #productos {
     background-color: rgba(228, 255, 252, 1);
     width: 100%;
@@ -402,6 +473,7 @@ img {
 
     #map iframe {
         width: 90%;
+        height: 30vh;
     }
 }
 
@@ -432,11 +504,22 @@ img {
     #btnsend2 {
         display: block;
     }
-    #con{
+
+    #con {
+        width: 95%;
         grid-template-columns: repeat(2, 1fr);
     }
-    .card{
-        height: 10rem;
+
+    .card {
+        height: 8rem;
+        display: block;
+        overflow: hidden;
+    }
+    .pet{
+        display: none;
+    }
+    .title p {
+        font-size: .7rem;
     }
 }
 
@@ -456,14 +539,17 @@ img {
     font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#soy{
 
+#soy {
+    display: block;
 }
-#como{
 
+#como {
+    display: block;
 }
-#contsuma{
 
+#contsuma {
+    display: block;
 }
 
 footer {
@@ -543,26 +629,30 @@ footer {
     display: block;
     padding: 0 0 1rem 0;
 }
+
 @media screen and (max-width: 720px) {
-    #fconta{
+    #fconta {
         width: 80%;
         height: auto;
         display: block;
         margin: auto;
     }
-    #flink{
+
+    #flink {
         width: 100%;
         height: auto;
         margin: auto;
-        display: block;      
+        display: block;
     }
-    #redes{
+
+    #redes {
         width: 100%;
         display: flex;
         height: 5rem;
         margin-bottom: 1rem;
     }
-    #fcli{
+
+    #fcli {
         width: 100%;
     }
 }
