@@ -67,7 +67,7 @@
 }
 @media screen and (max-width: 720px) {
     #nav_ul{
-
+        display: none;
     }
 }
 
@@ -213,6 +213,9 @@ img {
 .ix p{
     color: var(--color);
 }
+#vermas{
+    display: none;
+}
 @media screen and (max-width: 720px) {
     #scontainer{
         width: 95%;
@@ -237,10 +240,22 @@ img {
     }
     #content{
         width: 100%;
+        
     }
     .img{
         display: block;
         height: 60vh;
+    }
+    #vermas{
+        display: grid;
+        width: 100%;
+        height: 2.5rem;
+        background-color: var(--color);
+        text-align: center;
+        align-items: center;
+        margin-top: .5rem;
+        color: var(--color3);
+        
     }
 }
 #productos {
@@ -521,4 +536,27 @@ footer {
     color: var(--color3);
     display: block;
     padding: 0 0 1rem 0;
+}
+@media screen and (max-width: 720px) {
+    #fconta{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    #flink{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;      
+    }
+    #redes{
+        width: 100%;
+        display: flex;
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+    #fcli{
+        width: 100%;
+    }
 }
