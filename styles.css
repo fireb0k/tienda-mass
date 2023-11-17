@@ -402,7 +402,9 @@ img {
     margin: auto;
     padding: 1rem 0;
 }
-
+.textos h2{
+    color: var(--color);
+}
 #tconta h3 {
     color: var(--color);
 }
@@ -519,7 +521,7 @@ img {
         display: none;
     }
     .title p {
-        font-size: .7rem;
+        font-size: .9rem;
     }
 }
 
