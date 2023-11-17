@@ -1,0 +1,393 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+:root {
+    --color: rgba(8, 46, 183, 1);
+    --color2: rgba(255, 209, 0, 1);
+    --color3: rgba(255, 255, 255, 1);
+}
+
+#nav {
+    display: block;
+    background-color: var(--color2);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 0rem 0rem .5rem .5rem;
+}
+
+#nav_ul {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    width: 90%;
+    height: auto;
+    list-style: none;
+    text-align: center;
+}
+
+#s {
+    border-radius: 2rem;
+    width: 80%;
+    height: 1.3rem;
+    background-color: var(--color);
+    border-style: none;
+    padding-left: 1rem;
+    color: var(--color3);
+}
+
+#nav li {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.snav:hover {
+    color: red;
+    border-bottom: 2px solid #007bff;
+    transition: .5s
+}
+
+.snav {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.875rem;
+    color: var(--color);
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: var(--color);
+    display: block;
+}
+
+#hi {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.box {
+    display: block;
+    margin: auto;
+    background-color: red;
+}
+
+#ht {
+    display: block;
+    width: 60%;
+    padding: 1rem 0rem;
+}
+
+#ht h2 {
+    display: block;
+    font-size: 3em;
+    color: var(--color2);
+}
+
+#ht h3 {
+    color: var(--color3);
+    padding: 3rem 0;
+}
+
+.button {
+    background-color: var(--color2);
+    color: var(--color);
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+#himg {
+    width: 40%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#himg img {
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+}
+
+#ids {
+    display: flex;
+    margin: auto;
+}
+
+#item {
+    display: flex;
+    margin: auto;
+    width: 4rem;
+    height: 1rem;
+
+}
+
+.cl {
+    display: block;
+    margin: auto;
+    list-style: none;
+    width: 0.5rem;
+    height: .3rem;
+    border-radius: 5em;
+    background-color: white;
+}
+
+#section {
+    background-color: rgba(253, 245, 213, 1);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#scontainer {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+#content {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: var(--color2);
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    width: 100%;
+    height: 4.3rem;
+    display: flex;
+    margin: auto;
+}
+
+.ix {
+    display: block;
+    margin: auto;
+}
+
+#productos {
+    background-color: rgba(228, 255, 252, 1);
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#mx {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 5rem;
+    margin: auto;
+    padding: 2rem 0rem 2rem;
+}
+
+#con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-gap: 1rem;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 0px 0px 1rem 0px;
+}
+
+.card {
+    width: 100%;
+    height: 10rem;
+    display: block;
+    position: relative;
+}
+
+.card img {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    display: block;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    background-color: #fffb0054;
+    margin: auto;
+}
+
+.title p {
+    display: block;
+    margin: auto;
+    color: var(--color);
+}
+
+#contacto{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    background-color: rgba(242, 255, 253, 1);
+}
+#cconta{
+    width: 80% ;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding: 2rem 0px;
+}
+#form{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    
+}
+#form label {
+    color: var(--color);
+    display: block;
+    
+}
+.input{
+    text-decoration: none;
+    border-style: solid;
+    width: 100%;
+    height: 1.85rem;
+    border-radius: .3rem;
+    margin: .3rem 0;
+    border-color: var(--color);
+    color: var(--color);
+}
+#btnsend{
+    background-color: var(--color2);
+    border: none;
+}
+#btnsend2{
+    background-color: var(--color2);
+    border: none;
+    display: none;
+}
+#map{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    right: 0;
+}
+#map iframe{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin: auto;
+    border: none;
+    padding: 0 0 0 1rem;
+    
+}
+@media screen and (max-width: 720px){
+   
+    #map iframe{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 360px) {
+    
+    #cconta{
+        display: block;
+    }
+    #form{
+        width: 100%;
+    }
+    #map{
+        display: block;
+        width: 100%;
+    }
+    #map iframe{
+        width: 100%;
+        padding: 0;
+    }
+    #btnsend{
+        display: none;
+    }
+    #btnsend2{
+        display: block;
+    }
+}
+footer {
+    background-color: var(--color);
+    width: 100%;
+    height: 50vh;
+    display: block;
+    margin: auto;
+}
+#fconta{
+    width:75%;
+    height: auto;
+    background-color: var(--color2);
+    display: flex;
+    margin: auto;
+    padding: 3rem 0;
+}
+#flink{
+    width: 30%;
+    display: block;
+    
+}
+#flink p{
+    padding: 0 0 1rem 0;
+    font-size: 1rem;
+}
+.link{
+    text-decoration: none;
+    display: block;
+    color: var(--color3);
+    left: 0;
+    font-size: .8rem;
+    padding: .18rem 0;
+}
+#redes{
+    width: 40%;
+}
+#fcli{
+    width: 30%;
+}
+#copy{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: var(--color3);
+}
